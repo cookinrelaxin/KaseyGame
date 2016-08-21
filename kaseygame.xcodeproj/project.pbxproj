@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65262243199AC6FB00350D9B /* GameplayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526221C199AC6FB00350D9B /* GameplayScene.m */; };
+		65262244199AC6FB00350D9B /* HudComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526221F199AC6FB00350D9B /* HudComponent.m */; };
+		65262257199AC6FB00350D9B /* Chunk.m in Sources */ = {isa = PBXBuildFile; fileRef = 65262238199AC6FB00350D9B /* Chunk.m */; };
+		65262258199AC6FB00350D9B /* PhysicsComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 65262239199AC6FB00350D9B /* PhysicsComponent.m */; };
+		65262259199AC6FB00350D9B /* AnimationComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526223A199AC6FB00350D9B /* AnimationComponent.m */; };
+		6526225A199AC6FB00350D9B /* ControlComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526223C199AC6FB00350D9B /* ControlComponent.m */; };
+		6526225C199AC6FB00350D9B /* LevelComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526223F199AC6FB00350D9B /* LevelComponent.m */; };
+		65262260199AC8DC00350D9B /* GameplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6526225F199AC8DC00350D9B /* GameplayViewController.m */; };
+		6539223819A3CA4800932A3E /* art assets in Resources */ = {isa = PBXBuildFile; fileRef = 6539223719A3CA4800932A3E /* art assets */; };
+		654D1FC219A3CF8F00C8D3F5 /* LevelEditorScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D1FB719A3CF8F00C8D3F5 /* LevelEditorScene.m */; };
+		654D1FC319A3CF8F00C8D3F5 /* LevelEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D1FB919A3CF8F00C8D3F5 /* LevelEditorViewController.m */; };
+		654D1FC419A3CF8F00C8D3F5 /* LevelSelectionPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D1FBB19A3CF8F00C8D3F5 /* LevelSelectionPopoverViewController.m */; };
+		654D1FC619A3CF8F00C8D3F5 /* TilePaletteCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D1FBF19A3CF8F00C8D3F5 /* TilePaletteCollectionViewController.m */; };
+		654D1FCA19A3D0AD00C8D3F5 /* Tileset.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D1FC919A3D0AD00C8D3F5 /* Tileset.m */; };
+		654D1FCD19A3DCCD00C8D3F5 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D1FCC19A3DCCD00C8D3F5 /* Tile.m */; };
+		654D1FD319A4379C00C8D3F5 /* TilePaletteViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 654D1FD219A4379C00C8D3F5 /* TilePaletteViewCell.m */; };
+		65718CCA199AE4E40027161A /* RootNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65718CC9199AE4E40027161A /* RootNavigationController.m */; };
+		65789DFA19A5AA77000C4C88 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = 65789DF919A5AA77000C4C88 /* Palette.m */; };
+		65EFB3BB1999B561003B7794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EFB3BA1999B561003B7794 /* Foundation.framework */; };
+		65EFB3BD1999B561003B7794 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EFB3BC1999B561003B7794 /* CoreGraphics.framework */; };
+		65EFB3BF1999B561003B7794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EFB3BE1999B561003B7794 /* UIKit.framework */; };
+		65EFB3C11999B561003B7794 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EFB3C01999B561003B7794 /* SpriteKit.framework */; };
+		65EFB3C71999B561003B7794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EFB3C51999B561003B7794 /* InfoPlist.strings */; };
+		65EFB3C91999B561003B7794 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EFB3C81999B561003B7794 /* main.m */; };
+		65EFB3CD1999B561003B7794 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EFB3CC1999B561003B7794 /* AppDelegate.m */; };
+		65EFB3D01999B561003B7794 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EFB3CE1999B561003B7794 /* Main_iPhone.storyboard */; };
+		65EFB3D31999B561003B7794 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EFB3D11999B561003B7794 /* Main_iPad.storyboard */; };
+		65EFB3DD1999B561003B7794 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65EFB3DC1999B561003B7794 /* Images.xcassets */; };
+		65EFB3E41999B561003B7794 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EFB3E31999B561003B7794 /* XCTest.framework */; };
+		65EFB3E51999B561003B7794 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EFB3BA1999B561003B7794 /* Foundation.framework */; };
+		65EFB3E61999B561003B7794 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EFB3BE1999B561003B7794 /* UIKit.framework */; };
+		65EFB3EE1999B561003B7794 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EFB3EC1999B561003B7794 /* InfoPlist.strings */; };
+		65EFB3F01999B561003B7794 /* kaseygameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EFB3EF1999B561003B7794 /* kaseygameTests.m */; };
+		785E061619DA10B600633682 /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 785E061519DA10B600633682 /* CloudKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65EFB3E71999B561003B7794 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65EFB3AF1999B560003B7794 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65EFB3B61999B560003B7794;
+			remoteInfo = kaseygame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6526221C199AC6FB00350D9B /* GameplayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = GameplayScene.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6526221D199AC6FB00350D9B /* HudComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = HudComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6526221E199AC6FB00350D9B /* GameplayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = GameplayScene.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6526221F199AC6FB00350D9B /* HudComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = HudComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65262238199AC6FB00350D9B /* Chunk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = Chunk.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65262239199AC6FB00350D9B /* PhysicsComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhysicsComponent.m; sourceTree = "<group>"; };
+		6526223A199AC6FB00350D9B /* AnimationComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = AnimationComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6526223B199AC6FB00350D9B /* PhysicsComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhysicsComponent.h; sourceTree = "<group>"; };
+		6526223C199AC6FB00350D9B /* ControlComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = ControlComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		6526223D199AC6FB00350D9B /* AnimationComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = AnimationComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6526223F199AC6FB00350D9B /* LevelComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = LevelComponent.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		65262240199AC6FB00350D9B /* ControlComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = ControlComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		65262241199AC6FB00350D9B /* Chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Chunk.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		65262242199AC6FB00350D9B /* LevelComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = LevelComponent.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		6526225E199AC8DC00350D9B /* GameplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameplayViewController.h; sourceTree = "<group>"; };
+		6526225F199AC8DC00350D9B /* GameplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameplayViewController.m; sourceTree = "<group>"; };
+		6539223719A3CA4800932A3E /* art assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "art assets"; sourceTree = "<group>"; };
+		654D1FB619A3CF8F00C8D3F5 /* LevelEditorScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelEditorScene.h; sourceTree = "<group>"; };
+		654D1FB719A3CF8F00C8D3F5 /* LevelEditorScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelEditorScene.m; sourceTree = "<group>"; };
+		654D1FB819A3CF8F00C8D3F5 /* LevelEditorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelEditorViewController.h; sourceTree = "<group>"; };
+		654D1FB919A3CF8F00C8D3F5 /* LevelEditorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelEditorViewController.m; sourceTree = "<group>"; };
+		654D1FBA19A3CF8F00C8D3F5 /* LevelSelectionPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelSelectionPopoverViewController.h; sourceTree = "<group>"; };
+		654D1FBB19A3CF8F00C8D3F5 /* LevelSelectionPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelSelectionPopoverViewController.m; sourceTree = "<group>"; };
+		654D1FBE19A3CF8F00C8D3F5 /* TilePaletteCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilePaletteCollectionViewController.h; sourceTree = "<group>"; };
+		654D1FBF19A3CF8F00C8D3F5 /* TilePaletteCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilePaletteCollectionViewController.m; sourceTree = "<group>"; };
+		654D1FC819A3D0AD00C8D3F5 /* Tileset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tileset.h; sourceTree = "<group>"; };
+		654D1FC919A3D0AD00C8D3F5 /* Tileset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tileset.m; sourceTree = "<group>"; };
+		654D1FCB19A3DCCD00C8D3F5 /* Tile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tile.h; sourceTree = "<group>"; };
+		654D1FCC19A3DCCD00C8D3F5 /* Tile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Tile.m; sourceTree = "<group>"; };
+		654D1FD119A4379C00C8D3F5 /* TilePaletteViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TilePaletteViewCell.h; sourceTree = "<group>"; };
+		654D1FD219A4379C00C8D3F5 /* TilePaletteViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TilePaletteViewCell.m; sourceTree = "<group>"; };
+		65718CC8199AE4E40027161A /* RootNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootNavigationController.h; sourceTree = "<group>"; };
+		65718CC9199AE4E40027161A /* RootNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootNavigationController.m; sourceTree = "<group>"; };
+		65789DF819A5AA77000C4C88 /* Palette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Palette.h; sourceTree = "<group>"; };
+		65789DF919A5AA77000C4C88 /* Palette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Palette.m; sourceTree = "<group>"; };
+		65EFB3B71999B561003B7794 /* kaseygame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kaseygame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EFB3BA1999B561003B7794 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65EFB3BC1999B561003B7794 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65EFB3BE1999B561003B7794 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65EFB3C01999B561003B7794 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		65EFB3C41999B561003B7794 /* kaseygame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kaseygame-Info.plist"; sourceTree = "<group>"; };
+		65EFB3C61999B561003B7794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65EFB3C81999B561003B7794 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65EFB3CA1999B561003B7794 /* kaseygame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kaseygame-Prefix.pch"; sourceTree = "<group>"; };
+		65EFB3CB1999B561003B7794 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		65EFB3CC1999B561003B7794 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		65EFB3CF1999B561003B7794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		65EFB3D21999B561003B7794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		65EFB3DC1999B561003B7794 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		65EFB3E21999B561003B7794 /* kaseygameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kaseygameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		65EFB3E31999B561003B7794 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		65EFB3EB1999B561003B7794 /* kaseygameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kaseygameTests-Info.plist"; sourceTree = "<group>"; };
+		65EFB3ED1999B561003B7794 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65EFB3EF1999B561003B7794 /* kaseygameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kaseygameTests.m; sourceTree = "<group>"; };
+		785E061419DA108200633682 /* kaseygame.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = kaseygame.entitlements; sourceTree = "<group>"; };
+		785E061519DA10B600633682 /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65EFB3B41999B560003B7794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785E061619DA10B600633682 /* CloudKit.framework in Frameworks */,
+				65EFB3BD1999B561003B7794 /* CoreGraphics.framework in Frameworks */,
+				65EFB3BF1999B561003B7794 /* UIKit.framework in Frameworks */,
+				65EFB3C11999B561003B7794 /* SpriteKit.framework in Frameworks */,
+				65EFB3BB1999B561003B7794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EFB3DF1999B561003B7794 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EFB3E41999B561003B7794 /* XCTest.framework in Frameworks */,
+				65EFB3E61999B561003B7794 /* UIKit.framework in Frameworks */,
+				65EFB3E51999B561003B7794 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		654D1FB519A3CF8F00C8D3F5 /* LevelEditor */ = {
+			isa = PBXGroup;
+			children = (
+				654D1FB619A3CF8F00C8D3F5 /* LevelEditorScene.h */,
+				654D1FB719A3CF8F00C8D3F5 /* LevelEditorScene.m */,
+				654D1FB819A3CF8F00C8D3F5 /* LevelEditorViewController.h */,
+				654D1FB919A3CF8F00C8D3F5 /* LevelEditorViewController.m */,
+				654D1FBA19A3CF8F00C8D3F5 /* LevelSelectionPopoverViewController.h */,
+				654D1FBB19A3CF8F00C8D3F5 /* LevelSelectionPopoverViewController.m */,
+				654D1FBE19A3CF8F00C8D3F5 /* TilePaletteCollectionViewController.h */,
+				654D1FBF19A3CF8F00C8D3F5 /* TilePaletteCollectionViewController.m */,
+				654D1FD119A4379C00C8D3F5 /* TilePaletteViewCell.h */,
+				654D1FD219A4379C00C8D3F5 /* TilePaletteViewCell.m */,
+				65789DF819A5AA77000C4C88 /* Palette.h */,
+				65789DF919A5AA77000C4C88 /* Palette.m */,
+				654D1FC819A3D0AD00C8D3F5 /* Tileset.h */,
+				654D1FC919A3D0AD00C8D3F5 /* Tileset.m */,
+				654D1FCB19A3DCCD00C8D3F5 /* Tile.h */,
+				654D1FCC19A3DCCD00C8D3F5 /* Tile.m */,
+			);
+			path = LevelEditor;
+			sourceTree = "<group>";
+		};
+		65EFB3AE1999B560003B7794 = {
+			isa = PBXGroup;
+			children = (
+				65EFB3C21999B561003B7794 /* kaseygame */,
+				65EFB3E91999B561003B7794 /* kaseygameTests */,
+				65EFB3B91999B561003B7794 /* Frameworks */,
+				65EFB3B81999B561003B7794 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65EFB3B81999B561003B7794 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65EFB3B71999B561003B7794 /* kaseygame.app */,
+				65EFB3E21999B561003B7794 /* kaseygameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65EFB3B91999B561003B7794 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				785E061519DA10B600633682 /* CloudKit.framework */,
+				65EFB3BA1999B561003B7794 /* Foundation.framework */,
+				65EFB3BC1999B561003B7794 /* CoreGraphics.framework */,
+				65EFB3BE1999B561003B7794 /* UIKit.framework */,
+				65EFB3C01999B561003B7794 /* SpriteKit.framework */,
+				65EFB3E31999B561003B7794 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65EFB3C21999B561003B7794 /* kaseygame */ = {
+			isa = PBXGroup;
+			children = (
+				785E061419DA108200633682 /* kaseygame.entitlements */,
+				6539223719A3CA4800932A3E /* art assets */,
+				6526221E199AC6FB00350D9B /* GameplayScene.h */,
+				6526221C199AC6FB00350D9B /* GameplayScene.m */,
+				6526225E199AC8DC00350D9B /* GameplayViewController.h */,
+				6526225F199AC8DC00350D9B /* GameplayViewController.m */,
+				654D1FB519A3CF8F00C8D3F5 /* LevelEditor */,
+				65718CC8199AE4E40027161A /* RootNavigationController.h */,
+				65718CC9199AE4E40027161A /* RootNavigationController.m */,
+				6526221D199AC6FB00350D9B /* HudComponent.h */,
+				6526221F199AC6FB00350D9B /* HudComponent.m */,
+				6526223B199AC6FB00350D9B /* PhysicsComponent.h */,
+				65262239199AC6FB00350D9B /* PhysicsComponent.m */,
+				6526223D199AC6FB00350D9B /* AnimationComponent.h */,
+				6526223A199AC6FB00350D9B /* AnimationComponent.m */,
+				65262240199AC6FB00350D9B /* ControlComponent.h */,
+				6526223C199AC6FB00350D9B /* ControlComponent.m */,
+				65262241199AC6FB00350D9B /* Chunk.h */,
+				65262238199AC6FB00350D9B /* Chunk.m */,
+				65262242199AC6FB00350D9B /* LevelComponent.h */,
+				6526223F199AC6FB00350D9B /* LevelComponent.m */,
+				65EFB3CB1999B561003B7794 /* AppDelegate.h */,
+				65EFB3CC1999B561003B7794 /* AppDelegate.m */,
+				65EFB3CE1999B561003B7794 /* Main_iPhone.storyboard */,
+				65EFB3D11999B561003B7794 /* Main_iPad.storyboard */,
+				65EFB3DC1999B561003B7794 /* Images.xcassets */,
+				65EFB3C31999B561003B7794 /* Supporting Files */,
+			);
+			path = kaseygame;
+			sourceTree = "<group>";
+		};
+		65EFB3C31999B561003B7794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65EFB3C41999B561003B7794 /* kaseygame-Info.plist */,
+				65EFB3C51999B561003B7794 /* InfoPlist.strings */,
+				65EFB3C81999B561003B7794 /* main.m */,
+				65EFB3CA1999B561003B7794 /* kaseygame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65EFB3E91999B561003B7794 /* kaseygameTests */ = {
+			isa = PBXGroup;
+			children = (
+				65EFB3EF1999B561003B7794 /* kaseygameTests.m */,
+				65EFB3EA1999B561003B7794 /* Supporting Files */,
+			);
+			path = kaseygameTests;
+			sourceTree = "<group>";
+		};
+		65EFB3EA1999B561003B7794 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65EFB3EB1999B561003B7794 /* kaseygameTests-Info.plist */,
+				65EFB3EC1999B561003B7794 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65EFB3B61999B560003B7794 /* kaseygame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EFB3F31999B561003B7794 /* Build configuration list for PBXNativeTarget "kaseygame" */;
+			buildPhases = (
+				65EFB3B31999B560003B7794 /* Sources */,
+				65EFB3B41999B560003B7794 /* Frameworks */,
+				65EFB3B51999B560003B7794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kaseygame;
+			productName = kaseygame;
+			productReference = 65EFB3B71999B561003B7794 /* kaseygame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65EFB3E11999B561003B7794 /* kaseygameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65EFB3F61999B561003B7794 /* Build configuration list for PBXNativeTarget "kaseygameTests" */;
+			buildPhases = (
+				65EFB3DE1999B561003B7794 /* Sources */,
+				65EFB3DF1999B561003B7794 /* Frameworks */,
+				65EFB3E01999B561003B7794 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65EFB3E81999B561003B7794 /* PBXTargetDependency */,
+			);
+			name = kaseygameTests;
+			productName = kaseygameTests;
+			productReference = 65EFB3E21999B561003B7794 /* kaseygameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65EFB3AF1999B560003B7794 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Zachary Feldcamp";
+				TargetAttributes = {
+					65EFB3B61999B560003B7794 = {
+						DevelopmentTeam = MN5SXS5EJ2;
+						SystemCapabilities = {
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					65EFB3E11999B561003B7794 = {
+						TestTargetID = 65EFB3B61999B560003B7794;
+					};
+				};
+			};
+			buildConfigurationList = 65EFB3B21999B560003B7794 /* Build configuration list for PBXProject "kaseygame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65EFB3AE1999B560003B7794;
+			productRefGroup = 65EFB3B81999B561003B7794 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65EFB3B61999B560003B7794 /* kaseygame */,
+				65EFB3E11999B561003B7794 /* kaseygameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65EFB3B51999B560003B7794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EFB3DD1999B561003B7794 /* Images.xcassets in Resources */,
+				65EFB3D31999B561003B7794 /* Main_iPad.storyboard in Resources */,
+				6539223819A3CA4800932A3E /* art assets in Resources */,
+				65EFB3D01999B561003B7794 /* Main_iPhone.storyboard in Resources */,
+				65EFB3C71999B561003B7794 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EFB3E01999B561003B7794 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EFB3EE1999B561003B7794 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65EFB3B31999B560003B7794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EFB3CD1999B561003B7794 /* AppDelegate.m in Sources */,
+				65718CCA199AE4E40027161A /* RootNavigationController.m in Sources */,
+				654D1FC419A3CF8F00C8D3F5 /* LevelSelectionPopoverViewController.m in Sources */,
+				6526225A199AC6FB00350D9B /* ControlComponent.m in Sources */,
+				654D1FC219A3CF8F00C8D3F5 /* LevelEditorScene.m in Sources */,
+				65262244199AC6FB00350D9B /* HudComponent.m in Sources */,
+				65EFB3C91999B561003B7794 /* main.m in Sources */,
+				65262259199AC6FB00350D9B /* AnimationComponent.m in Sources */,
+				654D1FD319A4379C00C8D3F5 /* TilePaletteViewCell.m in Sources */,
+				654D1FCA19A3D0AD00C8D3F5 /* Tileset.m in Sources */,
+				65789DFA19A5AA77000C4C88 /* Palette.m in Sources */,
+				654D1FC319A3CF8F00C8D3F5 /* LevelEditorViewController.m in Sources */,
+				65262257199AC6FB00350D9B /* Chunk.m in Sources */,
+				65262260199AC8DC00350D9B /* GameplayViewController.m in Sources */,
+				654D1FCD19A3DCCD00C8D3F5 /* Tile.m in Sources */,
+				65262243199AC6FB00350D9B /* GameplayScene.m in Sources */,
+				654D1FC619A3CF8F00C8D3F5 /* TilePaletteCollectionViewController.m in Sources */,
+				6526225C199AC6FB00350D9B /* LevelComponent.m in Sources */,
+				65262258199AC6FB00350D9B /* PhysicsComponent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65EFB3DE1999B561003B7794 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65EFB3F01999B561003B7794 /* kaseygameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65EFB3E81999B561003B7794 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65EFB3B61999B560003B7794 /* kaseygame */;
+			targetProxy = 65EFB3E71999B561003B7794 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65EFB3C51999B561003B7794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EFB3C61999B561003B7794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65EFB3CE1999B561003B7794 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EFB3CF1999B561003B7794 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		65EFB3D11999B561003B7794 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EFB3D21999B561003B7794 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		65EFB3EC1999B561003B7794 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65EFB3ED1999B561003B7794 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65EFB3F11999B561003B7794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65EFB3F21999B561003B7794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65EFB3F41999B561003B7794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = kaseygame/kaseygame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kaseygame/kaseygame-Prefix.pch";
+				INFOPLIST_FILE = "kaseygame/kaseygame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65EFB3F51999B561003B7794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = kaseygame/kaseygame.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kaseygame/kaseygame-Prefix.pch";
+				INFOPLIST_FILE = "kaseygame/kaseygame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		65EFB3F71999B561003B7794 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kaseygame.app/kaseygame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kaseygame/kaseygame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "kaseygameTests/kaseygameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		65EFB3F81999B561003B7794 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/kaseygame.app/kaseygame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "kaseygame/kaseygame-Prefix.pch";
+				INFOPLIST_FILE = "kaseygameTests/kaseygameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65EFB3B21999B560003B7794 /* Build configuration list for PBXProject "kaseygame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EFB3F11999B561003B7794 /* Debug */,
+				65EFB3F21999B561003B7794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EFB3F31999B561003B7794 /* Build configuration list for PBXNativeTarget "kaseygame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EFB3F41999B561003B7794 /* Debug */,
+				65EFB3F51999B561003B7794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65EFB3F61999B561003B7794 /* Build configuration list for PBXNativeTarget "kaseygameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65EFB3F71999B561003B7794 /* Debug */,
+				65EFB3F81999B561003B7794 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65EFB3AF1999B560003B7794 /* Project object */;
+}

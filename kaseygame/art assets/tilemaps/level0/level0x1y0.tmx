@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="19" height="11" tilewidth="30" tileheight="30">
+ <tileset firstgid="1" name="grayscale3x1" tilewidth="30" tileheight="30">
+  <image source="grayscale3x1.png" width="90" height="30"/>
+ </tileset>
+ <tileset firstgid="4" name="testtileset3x4" tilewidth="30" tileheight="30">
+  <image source="testtileset3x4.png" width="90" height="120"/>
+ </tileset>
+ <layer name="gray sky" width="19" height="11">
+  <data>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+   <tile gid="1"/>
+  </data>
+ </layer>
+ <objectgroup name="ground" width="19" height="11">
+  <object gid="8" x="0" y="330"/>
+  <object gid="8" x="120" y="330"/>
+  <object gid="8" x="30" y="330"/>
+  <object gid="8" x="60" y="330"/>
+  <object gid="8" x="90" y="330"/>
+  <object gid="8" x="150" y="330"/>
+  <object gid="8" x="180" y="330"/>
+  <object gid="8" x="210" y="330"/>
+  <object gid="8" x="240" y="330"/>
+  <object gid="8" x="270" y="330"/>
+  <object gid="8" x="300" y="330"/>
+  <object gid="8" x="360" y="330"/>
+  <object gid="8" x="390" y="300"/>
+  <object gid="8" x="330" y="330"/>
+  <object gid="8" x="420" y="330"/>
+  <object gid="8" x="420" y="300"/>
+  <object gid="8" x="120" y="300"/>
+  <object gid="8" x="450" y="300"/>
+  <object gid="8" x="240" y="300"/>
+  <object gid="8" x="330" y="300"/>
+  <object gid="8" x="0" y="300"/>
+  <object gid="8" x="210" y="300"/>
+  <object gid="8" x="60" y="300"/>
+  <object gid="8" x="150" y="300"/>
+  <object gid="8" x="300" y="300"/>
+  <object gid="8" x="270" y="300"/>
+  <object gid="8" x="90" y="300"/>
+  <object gid="8" x="180" y="300"/>
+  <object gid="8" x="30" y="300"/>
+  <object gid="8" x="360" y="300"/>
+  <object gid="8" x="390" y="330"/>
+  <object gid="8" x="540" y="330"/>
+  <object gid="8" x="510" y="330"/>
+  <object gid="8" x="480" y="330"/>
+  <object gid="8" x="450" y="330"/>
+  <object gid="8" x="480" y="300"/>
+  <object gid="8" x="510" y="300"/>
+  <object gid="8" x="540" y="300"/>
+  <object gid="9" x="180" y="210"/>
+  <object gid="9" x="210" y="210"/>
+  <object gid="9" x="240" y="210"/>
+  <object gid="9" x="270" y="210"/>
+  <object gid="9" x="180" y="150"/>
+  <object gid="9" x="210" y="150"/>
+  <object gid="9" x="240" y="150"/>
+  <object gid="9" x="270" y="150"/>
+  <object gid="9" x="300" y="150"/>
+  <object gid="9" x="300" y="210"/>
+  <object gid="9" x="330" y="150"/>
+  <object gid="9" x="330" y="210"/>
+  <object gid="9" x="360" y="210"/>
+  <object gid="9" x="390" y="210"/>
+  <object gid="9" x="420" y="210"/>
+  <object gid="9" x="420" y="180"/>
+  <object gid="9" x="420" y="150"/>
+  <object gid="9" x="420" y="120"/>
+  <object gid="9" x="420" y="90"/>
+  <object gid="9" x="420" y="60"/>
+  <object gid="9" x="330" y="120"/>
+  <object gid="9" x="300" y="120"/>
+  <object gid="9" x="270" y="120"/>
+  <object gid="9" x="240" y="120"/>
+  <object gid="9" x="210" y="120"/>
+  <object gid="9" x="180" y="120"/>
+  <object gid="9" x="150" y="120"/>
+  <object gid="9" x="120" y="120"/>
+  <object gid="9" x="60" y="120"/>
+  <object gid="9" x="90" y="120"/>
+  <object gid="9" x="30" y="120"/>
+  <object gid="9" x="30" y="90"/>
+  <object gid="9" x="30" y="60"/>
+  <object gid="9" x="330" y="60"/>
+  <object gid="9" x="300" y="60"/>
+  <object gid="9" x="270" y="60"/>
+  <object gid="9" x="240" y="60"/>
+  <object gid="9" x="210" y="60"/>
+  <object gid="9" x="180" y="60"/>
+  <object gid="9" x="390" y="60"/>
+  <object gid="9" x="360" y="60"/>
+  <object gid="9" x="150" y="60"/>
+ </objectgroup>
+</map>
